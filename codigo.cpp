@@ -1,7 +1,3 @@
-// --- Techo tipo celosía activado por lluvia, con switches de fin de carrera ---
-// Arduino UNO + Sensor de lluvia (FC-37/YL-83) + L298N + motorreductor DC
-// + 2 microswitches (fin de carrera abierto / cerrado)
-
 const int RAIN_DO_PIN   = 2;  // Salida digital del sensor de lluvia
 const int LIMIT_OPEN    = 4;  // Switch de fin de carrera "abierto"
 const int LIMIT_CLOSE   = 5;  // Switch de fin de carrera "cerrado"
